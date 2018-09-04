@@ -21,12 +21,12 @@ npx install-peerdeps [-d] eslint-config-streamr
 In your `.eslintrc.json` (or `.js`) file you must extend `eslint-config-streamr`:
 ```
 {
-  extend: 'eslint-config-streamr'
+  extends: 'eslint-config-streamr'
 }
 ```
 OR use alias
 ```
 {
-  extend: 'streamr'
+  extends: 'streamr'
 }
 ```
