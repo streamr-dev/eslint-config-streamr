@@ -6,23 +6,23 @@ module.exports = exports = {
     extends: [
         'eslint:recommended',
         'airbnb',
-        'plugin:flowtype/recommended'
+        'plugin:flowtype/recommended',
     ],
     parser: 'babel-eslint',
     env: {
         browser: true,
-        jest: true
+        jest: true,
     },
     plugins: [
         'react',
-        'flowtype'
+        'flowtype',
     ],
     settings: {
-        onlyFilesWithFlowAnnotation: true
+        onlyFilesWithFlowAnnotation: true,
     },
     rules: {
         'arrow-parens': [ERROR, 'always', {
-            requireForBlockBody: false
+            requireForBlockBody: false,
         }],
         'curly': [ERROR, 'all'],
         'flowtype/define-flow-type': ERROR,
@@ -37,14 +37,14 @@ module.exports = exports = {
         'import/prefer-default-export': DISABLED,
         'import/order': [ERROR, 'always', {
             'groups': [
-                'builtin', 'external', 'internal', 'parent', 'sibling', 'index'
+                'builtin', 'external', 'internal', 'parent', 'sibling', 'index',
             ],
-            'newlines-between': 'always'
+            'newlines-between': 'always',
         }],
         'indent': [ERROR, 4, {
             SwitchCase: WARN,
             MemberExpression: WARN,
-            ObjectExpression: WARN
+            ObjectExpression: WARN,
         }],
         'jsx-a11y/anchor-is-valid': DISABLED,
         'max-len': [ERROR, { code: 150 }],
@@ -52,24 +52,24 @@ module.exports = exports = {
         'no-debugger': WARN,
         'no-multiple-empty-lines': [ERROR, {
             max: 1,
-            maxBOF: 0
+            maxBOF: 0,
         }],
         'no-self-compare': DISABLED,
         'object-curly-newline': [ERROR, {
             ObjectExpression: {
-                minProperties: 1
+                minProperties: 1,
             },
             ObjectPattern: {
-                minProperties: 5
-            }
+                minProperties: 5,
+            },
         }],
         'quote-props': [ERROR, 'as-needed', {
-            numbers: true
+            numbers: true,
         }],
         'react/default-props-match-prop-types': DISABLED,
         'react/jsx-curly-spacing': [ERROR, {
             when: 'never',
-            children: true
+            children: true,
         }],
         'react/jsx-indent': [ERROR, 4],
         'react/jsx-indent-props': [ERROR, 4],
