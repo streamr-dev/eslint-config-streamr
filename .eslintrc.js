@@ -47,6 +47,8 @@ module.exports = exports = {
             ObjectExpression: WARN,
         }],
         'jsx-a11y/anchor-is-valid': DISABLED,
+        'jsx-a11y/label-has-for': DISABLED,
+        'jsx-a11y/label-has-associated-control': ERROR,
         'max-len': [ERROR, { code: 150 }],
         'no-console': [WARN, { allow: ['warn', 'error'] }],
         'no-debugger': WARN,
