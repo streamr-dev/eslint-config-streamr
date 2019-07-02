@@ -35,10 +35,8 @@ module.exports = exports = {
         'import/first': DISABLED,
         'import/no-named-as-default': DISABLED,
         'import/prefer-default-export': DISABLED,
-        'import/order': [ERROR, 'always', {
-            'groups': [
-                'builtin', 'external', 'internal', 'parent', 'sibling', 'index',
-            ],
+        'import/order': [ERROR, {
+            'groups': ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
             'newlines-between': 'always',
         }],
         'indent': [ERROR, 4, {
