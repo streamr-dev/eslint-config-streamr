@@ -15,12 +15,12 @@
   ],
   "peerDependencies": {
     "babel-eslint": "^10.0.3",
-    "eslint": "^6.5.1",
+    "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.0.1",
-    "eslint-plugin-flowtype": "^4.3.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.16.0"
+    "eslint-plugin-flowtype": "^4.6.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.18.3"
   },
   "author": "",
   "license": "UNLICENSED",
@@ -30,12 +30,12 @@
   "homepage": "https://github.com/streamr-dev/eslint-config-streamr#readme",
   "devDependencies": {
     "babel-eslint": "^10.0.3",
-    "eslint": "^6.5.1",
+    "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.0.1",
-    "eslint-plugin-flowtype": "^2.46.1",
-    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-flowtype": "^4.6.0",
+    "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.16.0"
+    "eslint-plugin-react": "^7.18.3"
   },
   "dependencies": {}
 }
