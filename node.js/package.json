@@ -11,12 +11,13 @@
     "url": "git+https://github.com/streamr-dev/eslint-config-streamr.git"
   },
   "keywords": [
-    "eslint"
+    "eslint",
+    "nodejs"
   ],
   "peerDependencies": {
-    "eslint": "5.16.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.17.2"
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1"
   },
   "author": "Streamr Network AG",
   "license": "MIT",
@@ -25,9 +26,9 @@
   },
   "homepage": "https://github.com/streamr-dev/eslint-config-streamr#readme",
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.17.2"
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1"
   },
   "dependencies": {}
 }
