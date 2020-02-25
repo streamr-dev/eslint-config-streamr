@@ -5,7 +5,8 @@ const ERROR = 2
 module.exports = exports = {
     extends: [
         'eslint:recommended',
-        'airbnb-base'
+        'airbnb-base',
+        'plugin:promise/recommended'
     ],
     env: {
         browser: false,

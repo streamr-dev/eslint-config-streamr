@@ -7,6 +7,7 @@ module.exports = exports = {
         'eslint:recommended',
         'airbnb',
         'plugin:flowtype/recommended',
+        'plugin:promise/recommended'
     ],
     parser: 'babel-eslint',
     env: {
