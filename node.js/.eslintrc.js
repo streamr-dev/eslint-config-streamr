@@ -55,6 +55,7 @@ module.exports = exports = {
         'quote-props': [ERROR, 'as-needed', {
             numbers: true,
         }],
+        'require-atomic-updates': ERROR,
         'semi': [ERROR, 'never']
     }
 }
