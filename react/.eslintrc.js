@@ -7,6 +7,7 @@ module.exports = exports = {
         'eslint:recommended',
         'airbnb',
         'plugin:flowtype/recommended',
+        'plugin:promise/recommended'
     ],
     parser: 'babel-eslint',
     env: {
@@ -74,6 +75,7 @@ module.exports = exports = {
         'react/jsx-indent': [ERROR, 4],
         'react/jsx-indent-props': [ERROR, 4],
         'react/require-default-props': DISABLED,
+        'require-atomic-updates': ERROR,
         'semi': [ERROR, 'never'],
     }
 }
