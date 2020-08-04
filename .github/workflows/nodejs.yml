@@ -1,0 +1,73 @@
+name: Test, Eslint and Publish
+
+on:
+  push:
+    tags:
+      - '*'
+    branches:
+      - master
+  pull_request:
+    branches:
+      - '*'
+  schedule:
+    # run every day at 00:00
+    - cron:  '0 0 * * *'
+
+jobs:
+  eslint:
+    name: Run eslint using Node 12
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
+      - name: npm run eslint in node.js
+        run: |
+          cd node.js
+          npm ci
+          npm run eslint
+          cd ..
+
+      - name: npm run eslint in react
+        run: |
+          cd react
+          npm ci
+          npm run eslint
+          cd ..
+
+  publish:
+    needs: [eslint]
+    name: Publishing master using Node 12
+    runs-on: ubuntu-latest
+
+    # run job only for tags and skip for cron
+    if: startsWith(github.ref, 'refs/tags/') && github.event_name != 'schedule'
+    steps:
+      - name: Get the release version
+        id: get_version
+        run: echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\//}
+
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+          registry-url: https://registry.npmjs.org/
+
+      - name: npm ci
+        run: |
+          npm ci
+          npm run build --if-present
+
+      - name: Publish latest ${{ steps.get_version.outputs.VERSION }}
+        run: |
+          cd node.js
+          npm publish
+          cd ..
+          cd react
+          npm publish
+          cd ..
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

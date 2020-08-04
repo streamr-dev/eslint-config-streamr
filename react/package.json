@@ -4,7 +4,8 @@
   "description": "Combined eslint-config to be used in all streamr js projects",
   "main": "index.js",
   "scripts": {
-    "print-config": "eslint --print-config .eslintrc.js"
+    "print-config": "eslint --print-config .eslintrc.js",
+    "eslint": "eslint ."
   },
   "repository": {
     "type": "git",
