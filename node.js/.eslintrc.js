@@ -2,7 +2,7 @@ const DISABLED = 0
 const WARN = 1
 const ERROR = 2
 
-module.exports = exports = {
+module.exports = {
     extends: [
         'eslint:recommended',
         'airbnb-base',
@@ -18,30 +18,38 @@ module.exports = exports = {
             requireForBlockBody: false,
         }],
         'comma-dangle': DISABLED,
-        'curly': [ERROR, 'all'],
+        curly: [ERROR, 'all'],
         'import/first': DISABLED,
         'import/no-named-as-default': DISABLED,
         'import/prefer-default-export': DISABLED,
         'import/order': [ERROR, {
-            'groups': ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+            groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
             'newlines-between': 'always',
         }],
-        'indent': [ERROR, 4, {
+        indent: [ERROR, 4, {
             SwitchCase: WARN,
             MemberExpression: WARN,
             ObjectExpression: WARN,
         }],
-        'max-len': [ERROR, { code: 120 }],
-        'no-console': [WARN, { allow: ['warn', 'error'] }],
+        'max-len': [ERROR, {
+            code: 120
+        }],
+        'no-console': [WARN, {
+            allow: ['warn', 'error']
+        }],
         'no-empty-function': WARN,
         'no-debugger': WARN,
         'no-multiple-empty-lines': [ERROR, {
             max: 1,
             maxBOF: 0,
         }],
-        'no-plusplus': [ERROR, { 'allowForLoopAfterthoughts': true }],
+        'no-plusplus': [ERROR, {
+            allowForLoopAfterthoughts: true
+        }],
         'no-self-compare': DISABLED,
-        'no-underscore-dangle': [ERROR, { 'allowAfterThis': true }],
+        'no-underscore-dangle': [ERROR, {
+            allowAfterThis: true
+        }],
         'no-unused-vars': WARN,
         'object-curly-newline': [ERROR, {
             ObjectExpression: {
@@ -56,6 +64,6 @@ module.exports = exports = {
             numbers: true,
         }],
         'require-atomic-updates': ERROR,
-        'semi': [ERROR, 'never']
+        semi: [ERROR, 'never']
     }
 }
