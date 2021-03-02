@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-streamr-nodejs",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "description": "eslint-config standard to be used in Streamr's node.js projects",
   "main": "index.js",
   "scripts": {
@@ -15,10 +15,10 @@
     "nodejs"
   ],
   "peerDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-promise": "^4.2.1"
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-promise": "^4.3.1"
   },
   "author": "Streamr Network AG",
   "license": "MIT",
@@ -27,10 +27,10 @@
   },
   "homepage": "https://github.com/streamr-dev/eslint-config-streamr#readme",
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-promise": "^4.2.1"
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-promise": "^4.3.1"
   },
   "dependencies": {}
 }
