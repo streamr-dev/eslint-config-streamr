@@ -38,6 +38,7 @@ module.exports = exports = {
         'promise/catch-or-return': ["error", {
             "allowThen": true
         }],
+        '@typescript-eslint/type-annotation-spacing': "error",
         '@typescript-eslint/no-unused-vars': [ERROR, { 'argsIgnorePattern': '^_' }],
         '@typescript-eslint/no-explicit-any': DISABLED,
         '@typescript-eslint/no-empty-function': DISABLED,
