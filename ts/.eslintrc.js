@@ -35,6 +35,9 @@ module.exports = exports = {
         'quote-props': DISABLED,
         'object-curly-newline': DISABLED,
         'promise/no-callback-in-promise': DISABLED,
+        'promise/catch-or-return': ["error", {
+            "allowThen": true
+        }],
         '@typescript-eslint/no-unused-vars': [ERROR, { 'argsIgnorePattern': '^_' }],
         '@typescript-eslint/no-explicit-any': DISABLED,
         '@typescript-eslint/no-empty-function': DISABLED,
