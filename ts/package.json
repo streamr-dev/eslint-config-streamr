@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-streamr-ts",
+  "version": "1.0.0",
+  "description": "eslint-config standard to be used in Streamr's TypeScript projects",
+  "main": "index.js",
+  "scripts": {
+    "print-config": "eslint --print-config .eslintrc.js"
+  },
+  "keywords": [
+    "eslint",
+    "ts"
+  ],
+  "author": "Streamr Network AG",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/parser": "^4.22.1"
+  },
+  "peerDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/parser": "^4.22.1"
+  }
+}
