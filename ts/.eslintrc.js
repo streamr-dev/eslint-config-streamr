@@ -11,7 +11,9 @@ module.exports = exports = {
     rules: {
         'arrow-parens': [ERROR, 'always'],
         'curly': [ERROR, 'all'],
-        'indent': [ERROR, 4],
+        'indent': [ERROR, 4, {
+            "SwitchCase": 1
+        }],
         'no-console': [WARN, { allow: ['warn', 'error'] }],
         'no-debugger': WARN,
         'no-multiple-empty-lines': [ERROR, {
