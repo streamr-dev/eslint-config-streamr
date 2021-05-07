@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-streamr-ts",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "eslint-config standard to be used in Streamr's TypeScript projects",
   "main": "index.js",
   "scripts": {
