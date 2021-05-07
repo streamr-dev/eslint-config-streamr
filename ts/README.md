@@ -31,3 +31,5 @@ OR use alias
   extends: 'streamr-ts'
 }
 ```
+### Resources
+[Rules for eslint-plugin-promise and their reasoning](https://github.com/xjamundx/eslint-plugin-promise/tree/development/docs/rules)
