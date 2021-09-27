@@ -24,7 +24,7 @@ module.exports = exports = {
         'require-atomic-updates': ERROR,
         'semi': [ERROR, 'never'],
         'newline-per-chained-call': DISABLED,
-        'max-len': [WARN, {
+        'max-len': [ERROR, {
             code: 150
         }],
         'max-classes-per-file': DISABLED,
@@ -35,6 +35,7 @@ module.exports = exports = {
         'promise/catch-or-return': ["error", {
             "allowThen": true
         }],
+        '@typescript-eslint/explicit-module-boundary-types': "error,
         '@typescript-eslint/type-annotation-spacing': "error",
         '@typescript-eslint/no-unused-vars': [ERROR, { 'argsIgnorePattern': '^_' }],
         '@typescript-eslint/no-explicit-any': DISABLED,
