@@ -35,7 +35,7 @@ module.exports = exports = {
         'promise/catch-or-return': ["error", {
             "allowThen": true
         }],
-        '@typescript-eslint/explicit-module-boundary-types': "error,
+        '@typescript-eslint/explicit-module-boundary-types': "error",
         '@typescript-eslint/type-annotation-spacing': "error",
         '@typescript-eslint/no-unused-vars': [ERROR, { 'argsIgnorePattern': '^_' }],
         '@typescript-eslint/no-explicit-any': DISABLED,
