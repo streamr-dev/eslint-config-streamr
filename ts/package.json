@@ -13,11 +13,11 @@
   "author": "Streamr Network AG",
   "license": "MIT",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.22.1",
-    "@typescript-eslint/parser": "^4.22.1",
-    "eslint": "^7.25.0",
+    "@typescript-eslint/eslint-plugin": "^4.31.2",
+    "@typescript-eslint/parser": "^4.31.2",
+    "eslint": "^7.32.0",
     "eslint-plugin-promise": "^5.1.0",
-    "typescript": "^4.2.4"
+    "typescript": "^4.4.3"
   },
   "peerDependencies": {
     "eslint": "^7.25.0",
