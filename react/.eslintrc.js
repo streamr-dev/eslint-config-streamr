@@ -49,7 +49,7 @@ module.exports = exports = {
         'jsx-a11y/label-has-for': DISABLED,
         'jsx-a11y/label-has-associated-control': ERROR,
         'max-len': [ERROR, { code: 150 }],
-        'no-console': [WARN, { allow: ['warn', 'error'] }],
+        'no-console': [WARN, { allow: ['warn', 'error', 'info'] }],
         'no-debugger': WARN,
         'no-multiple-empty-lines': [ERROR, {
             max: 1,
