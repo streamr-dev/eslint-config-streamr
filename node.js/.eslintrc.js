@@ -32,7 +32,7 @@ module.exports = exports = {
             ObjectExpression: WARN,
         }],
         'max-len': [ERROR, { code: 120 }],
-        'no-console': [WARN, { allow: ['warn', 'error'] }],
+        'no-console': [WARN, { allow: ['warn', 'error', 'info'] }],
         'no-empty-function': WARN,
         'no-debugger': WARN,
         'no-multiple-empty-lines': [ERROR, {
