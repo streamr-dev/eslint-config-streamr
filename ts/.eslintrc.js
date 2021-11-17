@@ -14,7 +14,7 @@ module.exports = exports = {
         'indent': [ERROR, 4, {
             "SwitchCase": 1
         }],
-        'no-console': [WARN, { allow: ['warn', 'error'] }],
+        'no-console': [WARN, { allow: ['warn', 'error', 'info'] }],
         'no-debugger': WARN,
         'no-multiple-empty-lines': [ERROR, {
             max: 1,
