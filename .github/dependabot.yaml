@@ -18,6 +18,6 @@ updates:
     labels:
       - ci
     reviewers:
-      - kare
+      - harbu
     assignees:
       - DaisyDomergue
