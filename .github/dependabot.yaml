@@ -18,6 +18,21 @@ updates:
     labels:
       - ci
     reviewers:
+      - kare
+    assignees:
+      - DaisyDomergue
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: daily
+      time: "08:00"
+      timezone: Europe/Helsinki
+    commit-message:
+      prefix: Build
+      include: scope
+    labels:
+      - Build
+    reviewers:
       - harbu
     assignees:
       - timoxley
