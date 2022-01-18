@@ -28,10 +28,10 @@ updates:
       time: "08:00"
       timezone: Europe/Helsinki
     commit-message:
-      prefix: Build
+      prefix: build
       include: scope
     labels:
-      - Build
+      - build
     reviewers:
       - harbu
     assignees:
@@ -43,10 +43,10 @@ updates:
       time: "08:00"
       timezone: Europe/Helsinki
     commit-message:
-      prefix: Build
+      prefix: build
       include: scope
     labels:
-      - Build
+      - build
     reviewers:
       - harbu
     assignees:
@@ -58,10 +58,10 @@ updates:
       time: "08:00"
       timezone: Europe/Helsinki
     commit-message:
-      prefix: Build
+      prefix: build
       include: scope
     labels:
-      - Build
+      - build
     reviewers:
       - harbu
     assignees:
