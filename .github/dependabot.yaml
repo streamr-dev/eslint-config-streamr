@@ -22,7 +22,37 @@ updates:
     assignees:
       - DaisyDomergue
   - package-ecosystem: "npm"
-    directory: "/"
+    directory: "/node.js/"
+    schedule:
+      interval: daily
+      time: "08:00"
+      timezone: Europe/Helsinki
+    commit-message:
+      prefix: Build
+      include: scope
+    labels:
+      - Build
+    reviewers:
+      - harbu
+    assignees:
+      - timoxley
+  - package-ecosystem: "npm"
+    directory: "/react/"
+    schedule:
+      interval: daily
+      time: "08:00"
+      timezone: Europe/Helsinki
+    commit-message:
+      prefix: Build
+      include: scope
+    labels:
+      - Build
+    reviewers:
+      - harbu
+    assignees:
+      - timoxley
+  - package-ecosystem: "npm"
+    directory: "/ts/"
     schedule:
       interval: daily
       time: "08:00"
