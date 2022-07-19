@@ -37,7 +37,10 @@ module.exports = exports = {
         }],
         '@typescript-eslint/explicit-module-boundary-types': "error",
         '@typescript-eslint/type-annotation-spacing': "error",
-        '@typescript-eslint/no-unused-vars': [ERROR, { 'argsIgnorePattern': '^_' }],
+        '@typescript-eslint/no-unused-vars': [ERROR, {
+            'argsIgnorePattern': '^_',
+            'varsIgnorePattern': '^_'
+        }],
         '@typescript-eslint/no-explicit-any': DISABLED,
         '@typescript-eslint/no-empty-function': DISABLED,
         '@typescript-eslint/no-non-null-assertion': DISABLED
