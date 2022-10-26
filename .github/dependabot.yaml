@@ -32,10 +32,6 @@ updates:
       include: scope
     labels:
       - build
-    reviewers:
-      - harbu
-    assignees:
-      - timoxley
   - package-ecosystem: "npm"
     directory: "/react/"
     schedule:
@@ -47,10 +43,6 @@ updates:
       include: scope
     labels:
       - build
-    reviewers:
-      - harbu
-    assignees:
-      - timoxley
   - package-ecosystem: "npm"
     directory: "/ts/"
     schedule:
@@ -62,7 +54,3 @@ updates:
       include: scope
     labels:
       - build
-    reviewers:
-      - harbu
-    assignees:
-      - timoxley
