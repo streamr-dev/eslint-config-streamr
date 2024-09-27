@@ -36,7 +36,7 @@ module.exports = exports = {
             "allowThen": true
         }],
         '@typescript-eslint/explicit-module-boundary-types': "error",
-        '@typescript-eslint/type-annotation-spacing': "error",
+        '@stylistic/type-annotation-spacing': "error",
         '@typescript-eslint/no-unused-vars': [ERROR, {
             'argsIgnorePattern': '^_',
             'varsIgnorePattern': '^_'
