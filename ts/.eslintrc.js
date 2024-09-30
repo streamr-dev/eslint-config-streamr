@@ -4,6 +4,9 @@ const ERROR = 2
 
 module.exports = exports = {
     parser: '@typescript-eslint/parser',
+    plugins: [
+        '@stylistic'
+    ],
     extends: [
         'plugin:promise/recommended',
         'plugin:@typescript-eslint/recommended'
