@@ -38,6 +38,7 @@ module.exports = tseslint.config(
             'quote-props': 'off',
             'require-atomic-updates': 'error',
             'semi': ['error', 'never'],
+            '@typescript-eslint/consistent-generic-constructors': 'off',
             '@typescript-eslint/explicit-module-boundary-types': 'error',
             '@typescript-eslint/no-empty-function': 'off',
             '@typescript-eslint/no-explicit-any': 'off',
