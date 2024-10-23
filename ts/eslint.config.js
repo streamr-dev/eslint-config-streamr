@@ -47,6 +47,7 @@ module.exports = tseslint.config(
                 argsIgnorePattern: '^_',
                 varsIgnorePattern: '^_'
             }],
+            '@typescript-eslint/prefer-regexp-exec': 'off',
             '@stylistic/type-annotation-spacing': 'error',
             'promise/always-return': 'warn',
             'promise/catch-or-return': ['error', {
