@@ -2,9 +2,9 @@
   "name": "eslint-config-streamr-ts",
   "version": "5.0.0",
   "description": "eslint-config standard to be used in Streamr's TypeScript projects",
-  "main": "index.js",
+  "main": "eslint.config.js",
   "scripts": {
-    "test": "eslint --print-config .eslintrc.js"
+    "test": "eslint --print-config eslint.config.js"
   },
   "keywords": [
     "eslint",
@@ -13,18 +13,20 @@
   "author": "Streamr Network AG",
   "license": "MIT",
   "devDependencies": {
-    "@stylistic/eslint-plugin": "^2.8.0",
-    "@typescript-eslint/eslint-plugin": "8.7.0",
-    "@typescript-eslint/parser": "^8.7.0",
-    "eslint": "^8.57.1",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.13.0",
+    "@stylistic/eslint-plugin": "^2.9.0",
+    "eslint": "^9.13.0",
     "eslint-plugin-promise": "^7.1.0",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "typescript-eslint": "8.11.0"
   },
   "peerDependencies": {
-    "eslint": "^8.57.1",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.13.0",
+    "@stylistic/eslint-plugin": "^2.9.0",
+    "eslint": "^9.13.0",
     "eslint-plugin-promise": "^7.1.0",
-    "@stylistic/eslint-plugin": "^2.8.0",
-    "@typescript-eslint/eslint-plugin": "8.7.0",
-    "@typescript-eslint/parser": "^8.7.0"
+    "typescript-eslint": "8.11.0"
   }
 }
