@@ -14,19 +14,19 @@
   "license": "MIT",
   "devDependencies": {
     "@eslint/eslintrc": "^3.1.0",
-    "@eslint/js": "^9.13.0",
+    "@eslint/js": "^9.18.0",
     "@stylistic/eslint-plugin": "^2.9.0",
-    "eslint": "^9.13.0",
+    "eslint": "^9.18.0",
     "eslint-plugin-promise": "^7.1.0",
     "typescript": "^5.3.3",
-    "typescript-eslint": "8.11.0"
+    "typescript-eslint": "8.21.0"
   },
   "peerDependencies": {
     "@eslint/eslintrc": "^3.1.0",
-    "@eslint/js": "^9.13.0",
+    "@eslint/js": "^9.18.0",
     "@stylistic/eslint-plugin": "^2.9.0",
-    "eslint": "^9.13.0",
+    "eslint": "^9.18.0",
     "eslint-plugin-promise": "^7.1.0",
-    "typescript-eslint": "8.11.0"
+    "typescript-eslint": "8.21.0"
   }
 }
