@@ -31,5 +31,16 @@ OR use alias
   extends: 'streamr-ts'
 }
 ```
+
+### Release
+
+1) `git checkout master`
+2) `git pull`
+3) Increase the version number in `package.json`
+4) `npm install`
+5) Commit changes
+6) `npm publish`
+7) `git push`
+
 ### Resources
 [Rules for eslint-plugin-promise and their reasoning](https://github.com/xjamundx/eslint-plugin-promise/tree/development/docs/rules)
