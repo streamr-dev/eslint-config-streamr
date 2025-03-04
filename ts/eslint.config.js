@@ -1,9 +1,9 @@
-const eslint = require('@eslint/js');
-const tseslint = require('typescript-eslint')
-const promise = require('eslint-plugin-promise')
-const stylistic = require('@stylistic/eslint-plugin')
+import eslint from '@eslint/js'
+import tseslint from 'typescript-eslint'
+import promise from 'eslint-plugin-promise'
+import stylistic from '@stylistic/eslint-plugin'
 
-module.exports = tseslint.config(
+export default tseslint.config(
     eslint.configs.recommended,
     ...tseslint.configs.recommendedTypeChecked,
     ...tseslint.configs.stylisticTypeChecked,
