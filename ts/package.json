@@ -14,7 +14,6 @@
   "author": "Streamr Network AG",
   "license": "MIT",
   "devDependencies": {
-    "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.21.0",
     "@stylistic/eslint-plugin": "^4.2.0",
     "eslint": "^9.21.0",
@@ -23,7 +22,6 @@
     "typescript-eslint": "^8.26.0"
   },
   "peerDependencies": {
-    "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.21.0",
     "@stylistic/eslint-plugin": "^4.2.0",
     "eslint": "^9.21.0",
